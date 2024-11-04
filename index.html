@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>instagram Bootstrap</title>
+    
+</head>
+<body>
+  <div class="container-fluid" style="width:1000px">
+      <nav class="navbar bg-body-tertiary">    
+         <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <i class="fa-brands fa-instagram"></i>
+              Instagram
+              </a> 
+              <div class="interativos justify-content-end">          
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="Add the caption of your post here">Create a new post</button>
+               <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                         <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                          <form>
+                           <div class="mb-3">
+                              <label for="recipient-name" class="col-form-label">Caption:</label>
+                              <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                          </form>
+                          <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+                           <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+                           
+                      </div>
+                      <div class="modal-footer">
+                           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           <button type="button" class="btn btn-success">Publish</button>
+                      </div>
+                    </div>
+                  
+               </div>
+               </div>
+              <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                     <i class="fa-solid fa-gear"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                      <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#" style="color: red;">Log out</a></li>
+                </ul>
+              </div>
+         </div>
+         </div>
+      </nav>
+      <nav>
+        <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+          <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-square"></i></button>
+        </div>
+      </nav>
+     <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+      <div class="container-fluid" style="width:1000px"> 
+        <div class="row gx-1 gy-1 mt-1">
+          <div class="col-4">
+            <img class="img-fluid" src="https://picsum.photos/id/19/400/400" alt="foto1">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="https://picsum.photos/id/17/400/400" alt="foto2">
+          </div>
+         <div class="col-4">
+            <img class="img-fluid" src="https://picsum.photos/id/10/400/400" alt="foto3">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="https://picsum.photos/id/16/400/400" alt="foto4">
+          </div>
+          <div class="col-4">
+           <img class="img-fluid" src="https://picsum.photos/id/29/400/400" alt="foto5">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="https://picsum.photos/id/99/400/400" alt="foto6">
+          </div>
+          <div class="col-4">
+           <img class="img-fluid" src="https://picsum.photos/id/59/400/400" alt="foto7">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="https://picsum.photos/id/79/400/400" alt="foto8">
+          </div>
+          <div class="col-4">
+            <img class="img-fluid" src="https://picsum.photos/id/69/500/500" alt="foto9">
+          </div>
+        </div>
+        </div>
+      </div>
+     </div>
+      
+     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+      <div class="container-fluid" style="width: 500px;">
+
+        <div class="container-fluid mx-auto mb-4">
+            <div class="header border border-1">
+              <div class="row">
+                <div class="col text-start justify-content-center">
+                  <p><strong>My Crazy dog Spark!</strong></p>
+                </div>
+                <div class="col text-end vertical-align">
+                  <span>08/26</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <img src="https://cdn.pixabay.com/photo/2017/03/28/18/51/dog-2183017_1280.jpg" alt="foto perro" class="img-fluid">
+            </div>
+            <div class="footer border border-1">
+              <div class="row">
+                <div class="likes">
+                  <strong>204 likes</strong>
+                </div>
+                <div class="row">
+                  <div class="text-footer">
+                    <p>This is an example of s very photo that can post on instagram</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid mx-auto mb-4">
+             <div class="header border border-1">
+              <div class="row">
+                <div class="col text-start justify-content-center">
+                  <p><strong>My second photo</strong></p>
+                </div>
+                <div class="col text-end vertical-align">
+                  <span>08/12</span>
+                </div>
+              </div>
+             </div>
+              <div class="row">
+              <img src="https://cdn.pixabay.com/photo/2023/02/07/07/21/road-7773395_1280.jpg" alt="foto estrada " class="img-fluid">
+              </div>
+              <div class="footer border border-1">
+                <div class="row">
+                  <div class="likes">
+                  <strong>220 likes</strong>
+                  </div>
+                  <div class="row">
+                    <div class="text-footer">
+                    <p>This is a second photo</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="container-fluid mx-auto mb-4">
+              <div class="header border border-1 ">
+               <div class="row">
+                 <div class="col text-start justify-content-center">
+                   <p><strong>Mi mejor foto</strong></p>
+                 </div>
+                 <div class="col text-end vertical-align">
+                   <span>23/12</span>
+                 </div>
+               </div>
+              </div>
+               <div class="row">
+               <img src="https://cdn.pixabay.com/photo/2023/10/23/17/39/landscape-8336550_640.jpg" alt="foto perfeita" class="img-fluid">
+               </div>
+               <div class="footer border border-1">
+                 <div class="row">
+                   <div class="likes">
+                   <strong>550 likes</strong>
+                   </div>
+                   <div class="row">
+                    <div class="text-footer">
+                     <p>Mi mejor foto</p>
+                    </div>
+                 </div>
+                </div>
+               </div>
+        </div>
+        <div class="container-fluid mx-auto mb-4">
+              <div class="header border border-1">
+                <div class="row">
+                 <div class="col text-start justify-content-center">
+                   <p><strong>Sigo praticando</strong></p>
+                 </div>
+                 <div class="col text-end vertical-align">
+                   <span>08/05</span>
+                 </div>
+                </div>
+               </div>
+               <div class="row">
+                 <img src="https://cdn.pixabay.com/photo/2024/10/03/10/25/aesthetic-9093322_640.jpg" alt="foto mar" class="img-fluid">
+               </div>
+               <div class="footer border border-1">
+                 <div class="row">
+                    <div class="likes">
+                    <strong>170 likes</strong>
+                    </div>
+                    <div class="row">
+                     <div class="text-footer">
+                     <p>Sigo praticando</p>
+                     </div>
+                    </div>
+                  </div>
+               </div>
+              </div>
+        </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
